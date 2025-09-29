@@ -1,6 +1,11 @@
 import org.junit.jupiter.api.Test;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -46,3 +51,4 @@ public class NumberTriangleTest {
         assertEquals(4, mt.retrieve("llllllllllllll"));
     }
 }
+
